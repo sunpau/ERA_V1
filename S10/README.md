@@ -2,7 +2,7 @@
 The objective of the assignment is to acheive 90% accuracy on CIFAR 10 dataset in 24 epochs using OneCycleLR Policy
 
 -  Architecture
-   -  The model is built followed by the architecture built by David C. Page
+   -  The model is implementated by following the architecture provided by David C. Page
   ![davidnet](./images/davidnet.png)
   
    -  Model Summary
