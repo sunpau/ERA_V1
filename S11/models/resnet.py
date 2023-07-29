@@ -107,3 +107,6 @@ class ResNet(nn.Module):
 def ResNet18(classes=10):
   return ResNet(Block, [2, 2, 2, 2], classes=classes)
 
+def ResNet34(classes=10):
+    return ResNet(Block, [3, 4, 6, 3], classes=classes)
+
