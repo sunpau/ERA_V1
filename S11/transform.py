@@ -13,7 +13,7 @@ def get_a_train_transform():
         A.HorizontalFlip(p=0.5),
         A.Normalize((0.4914, 0.4822, 0.4465), (0.2443, 0.2408, 0.2581)), #normalize
         # A.Cutout(8,8,8),
-        A.CoarseDropout(1,8,8, p=0.5),
+        A.CoarseDropout(1,16,16, p=0.5),
         ToTensorV2()])
 
 
